@@ -1,0 +1,79 @@
+.left-section {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.Linkedin-logo {
+    object-fit: contain;
+    width: 135px;
+    cursor: pointer;
+}
+
+.middle-section {
+    display: flex;
+    align-items: right;
+    margin-left: 340px;
+}
+
+.icon-button,
+.icon-app-button {
+    border: none;
+    justify-content: space-between;
+    background-color: transparent;
+    margin: 15px;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.icon-button:hover,
+.icon-app-button:hover {
+    cursor: pointer;
+    opacity: 1.0;
+
+}
+
+.icons {
+    object-fit: contain;
+    width: 25px;
+
+}
+
+.icon-app-button {
+    border-left: 1px solid rgba(0, 0, 0, 0.443);
+    border-right: 1px solid rgba(0, 0, 0, 0.443);
+    padding: 0 20px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.join {
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: rgb(79, 79, 79);
+}
+
+.join:hover {
+    background-color: rgba(205, 204, 204, 0.573);
+    border-radius: 1.5rem;
+    cursor: pointer;
+
+}
+
+.sign {
+    padding: 15px 25px;
+    margin: 0 10px;
+    border: 1px solid rgb(35, 79, 255);
+    border-radius: 1.8rem;
+    color: rgb(35, 79, 255);
+}
+
+.sign:hover {
+    background-color: rgba(205, 204, 204, 0.573);
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
